@@ -25,3 +25,79 @@ body{
 .globe-image{
   margin-right: 0.5em;
 }
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.country{
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: 0rem 2.5rem 0rem 2.5rem;
+  margin-top: 2em;
+}
+
+.photo{
+  width: 125px ;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 0.5em;
+  margin-right: 1.25rem;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.2em;
+
+}
+
+.google-info{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.64rem;
+  font-weight: 400;
+}
+
+.google-1{
+  display: flex;
+  align-items: center;
+}
+
+.google-2{
+  margin-left: 1em;
+}
+
+h3{
+  letter-spacing: 0.109rem;
+  margin-left: 0.5em;
+}
+
+.google-maps{
+  color: #918E9B;
+}
+
+
+h2{
+  font-size: 1.563rem;
+  font-weight: 700;
+  color: #2B283A;
+  margin: 0.5em 0em 1em 0em;
+}
+
+.dates{
+  font-weight: 700;
+  color: #2B283A;
+  font-size: 0.64rem;
+}
+
+.story{
+  margin-top: 1em;
+  font-size: 0.64rem;
+  font-weight: 400;
+  color: #2B283A;
+  line-height: 150%;
+}
+

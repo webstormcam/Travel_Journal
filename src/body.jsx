@@ -1,6 +1,10 @@
+import Country from "./country.jsx"
+
 function Body(){
     return (
-        <main></main>
+        <main>
+             <Country/>
+        </main>
     )
 }
 
