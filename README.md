@@ -10,4 +10,10 @@ Currently, two official plugins are available:
 
 # React Props and Components
 
-I used this project to understand how you can create one component and then pull in unique information from a data file or API and .map over it and use props to make each component from another. 
+Although this is a simple project,I used this project to understand how you can create one React component and then pull in unique information from a data file or API and .map over it and use props to make each component from another. 
+
+# Deploying the project on Netlify
+Run NPM build and take the distribution folder and then drop it into Netlify to publish!!
+
+# Project link
+If you want to take a look at the project you can see it here: https://6579afac86648211a4863083--chic-figolla-f72829.netlify.app/
