@@ -4,7 +4,9 @@ function Body(){
     const places = data.map(item =>{
         return (
                  <Country
+                    key ={item.key}
                     title = {item.title}
+                    alt ={item.alt}
                     location = {item.location.toUpperCase()}
                     description ={item.description}
                     googleMapsUrl = {item.googleMapsUrl}

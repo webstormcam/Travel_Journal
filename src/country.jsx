@@ -6,7 +6,7 @@ function Country(props){
         
     <>
         <div className="country">
-            <img className="photo" src={props.imageUrl} alt="a Picture of Mount Fuji" />
+            <img className="photo" src={props.imageUrl} alt={props.alt} />
             <div className="details">
                 <div className="google-info">
                     <div className="google-1">
